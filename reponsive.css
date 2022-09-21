@@ -1,0 +1,38 @@
+@media (max-width: 34em) {
+  main {
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  .left-img {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .right {
+    gap: 24px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .right-button:link,
+  .right-button:visited {
+    padding: 12px 70px;
+  }
+
+  .icons {
+    width: 100%;
+    float: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 40px auto;
+  }
+
+  .icon {
+    margin-right: 5px;
+  }
+}
